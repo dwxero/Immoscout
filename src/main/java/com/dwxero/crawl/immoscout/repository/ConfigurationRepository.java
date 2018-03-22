@@ -1,6 +1,6 @@
-package com.dwierz.imcrawl.immoscoutservice.repository;
+package com.dwxero.crawl.immoscout.repository;
 
-import com.dwierz.imcrawl.immoscoutservice.entity.Configuration;
+import com.dwxero.crawl.immoscout.entity.Configuration;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface ConfigurationRepository extends MongoRepository<Configuration, String> {

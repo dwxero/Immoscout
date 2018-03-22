@@ -1,4 +1,4 @@
-package com.dwierz.imcrawl.immoscoutservice;
+package com.dwxero.crawl.immoscout;
 
 public interface Crawler {
 

@@ -1,8 +1,8 @@
-package com.dwierz.imcrawl.immoscoutservice;
+package com.dwxero.crawl.immoscout;
 
-import com.dwierz.imcrawl.immoscoutservice.entity.Property;
-import com.dwierz.imcrawl.immoscoutservice.entity.PropertyState;
-import com.dwierz.imcrawl.immoscoutservice.service.PropertyService;
+import com.dwxero.crawl.immoscout.entity.Property;
+import com.dwxero.crawl.immoscout.entity.PropertyState;
+import com.dwxero.crawl.immoscout.service.PropertyService;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

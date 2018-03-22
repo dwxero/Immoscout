@@ -1,4 +1,4 @@
-package com.dwierz.imcrawl.immoscoutservice;
+package com.dwxero.crawl.immoscout;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

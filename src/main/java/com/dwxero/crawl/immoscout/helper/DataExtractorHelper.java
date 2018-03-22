@@ -1,4 +1,4 @@
-package com.dwierz.imcrawl.immoscoutservice.helper;
+package com.dwxero.crawl.immoscout.helper;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

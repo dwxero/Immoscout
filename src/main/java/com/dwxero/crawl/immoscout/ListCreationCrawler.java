@@ -1,7 +1,7 @@
-package com.dwierz.imcrawl.immoscoutservice;
+package com.dwxero.crawl.immoscout;
 
-import com.dwierz.imcrawl.immoscoutservice.helper.UrlBuilder;
-import com.dwierz.imcrawl.immoscoutservice.service.PropertyService;
+import com.dwxero.crawl.immoscout.service.PropertyService;
+import com.dwxero.crawl.immoscout.helper.UrlBuilder;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -41,7 +41,7 @@ public class ListCreationCrawler implements Crawler {
 
         int numberOfResultPages = getNumberOfResultPagesForUrl(UrlBuilder.getListUrlForPage(0));
 
-        for (int i=1; i<= numberOfResultPages; i++) {
+        for (int i = 1; i <= numberOfResultPages; i++) {
             List<String> listOfExposeIds = getExposeIdsOnPageForUrl(UrlBuilder.getListUrlForPage(i));
             propertyService.createPropertiesBasedOnExposeIds(listOfExposeIds);
         }

@@ -1,11 +1,9 @@
-package com.dwierz.imcrawl.immoscoutservice;
+package com.dwxero.crawl.immoscout;
 
-import com.dwierz.imcrawl.immoscoutservice.entity.Property;
-import com.dwierz.imcrawl.immoscoutservice.entity.PropertyState;
-import com.dwierz.imcrawl.immoscoutservice.helper.DataExtractorHelper;
-import com.dwierz.imcrawl.immoscoutservice.service.PropertyService;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
+import com.dwxero.crawl.immoscout.entity.Property;
+import com.dwxero.crawl.immoscout.entity.PropertyState;
+import com.dwxero.crawl.immoscout.helper.DataExtractorHelper;
+import com.dwxero.crawl.immoscout.service.PropertyService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

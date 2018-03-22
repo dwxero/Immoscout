@@ -1,4 +1,4 @@
-package com.dwierz.imcrawl.immoscoutservice.entity;
+package com.dwxero.crawl.immoscout.entity;
 
 import org.springframework.data.annotation.Id;
 
@@ -26,7 +26,8 @@ public class Property {
     private String commissionNote;
 
 
-    public Property() {}
+    public Property() {
+    }
 
     public Property(String url, PropertyState state) {
         this.url = url;

@@ -1,10 +1,12 @@
-package com.dwierz.imcrawl.immoscoutservice.helper;
+package com.dwxero.crawl.immoscout.helper;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class DataExtractorHelperTest {
 

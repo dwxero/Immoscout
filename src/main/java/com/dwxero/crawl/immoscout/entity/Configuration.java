@@ -1,4 +1,4 @@
-package com.dwierz.imcrawl.immoscoutservice.entity;
+package com.dwxero.crawl.immoscout.entity;
 
 import org.springframework.data.annotation.Id;
 
